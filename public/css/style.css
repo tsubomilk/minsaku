@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #d9d9d9;
+    height: 76px;
+}
+
+.container{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.button-wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-bottom: 160px;
+}
+
+.button-wrap input{
+    width: 178px;
+    height: 50px;
+    color: white;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP';
+    font-weight: bold;
+}
+
+
+.posts-wrap{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    display: grid;
+    margin-right: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    row-gap: 50px;
+    column-gap: 290px;
+}
+
+.post{
+    width: 250px;
+}
+
+.post img{
+    border-radius: 40px;
+    width: 250px;
+    height: 150px;
+}
+
+.post h3{
+    font-family: 'Noto Sans JP';
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.post p{
+    font-family: 'Noto Sans JP';
+    font-size: 15px;
+    margin-left: 15px;
+}
